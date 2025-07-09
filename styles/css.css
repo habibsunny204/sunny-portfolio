@@ -39,6 +39,10 @@ nav li a{
 }
 
 /* shared styles */
+
+.bg-color{
+    background-color: #FFF8F3;
+}
 .text-color{
     color: #FD6E0A;
 }
@@ -60,26 +64,89 @@ nav li a{
     border-radius: 5px;
     border: none;
 }
+
+/* banner */
 .banner{
     display: flex;
     justify-content: space-between;
     margin-left: 230px;
     margin-right: 37px;
 }
-.banner-items{
+.banner-item{
     max-width: 580px;
 }
-.descrip{
-    font-size: 18px;
-}
+
 .hi{
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 5px;
 }
 .name{
     font-size: 85px;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.descrip{
+    margin-bottom: 30px;
 }
 .img{
     width: 580px;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+   max-width: 1140px;
+   max-height: 550px;
+   padding: 130px 156px;
+   border-radius: 10px;
+   text-align: center;
+   margin-top: 130px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-descrip{
+    font-size: 18px;
+}
+
+.info{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info .dark-2{
+    font-weight: bold;
+    font-size: 20px;
+}
+.info .dark-3{
+    font-size: 20px;
+}
+
+/* skills */
+.skills{
+   max-width: 910px;
+   margin-top: 130px;
+   margin-bottom: 130px;
+}
+.text-align{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-descrip{
+    text-align: left;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
