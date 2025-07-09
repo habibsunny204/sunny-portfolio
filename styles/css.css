@@ -6,6 +6,14 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
 /* nav items */
 nav {
     display: flex;
@@ -54,10 +62,14 @@ nav li a{
 }
 .banner{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-left: 230px;
+    margin-right: 37px;
 }
-.banner-items p{
+.banner-items{
+    max-width: 580px;
+}
+.descrip{
     font-size: 18px;
 }
 .hi{
@@ -67,4 +79,7 @@ nav li a{
 .name{
     font-size: 85px;
     font-weight: bold;
+}
+.img{
+    width: 580px;
 }
