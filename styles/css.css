@@ -157,7 +157,6 @@ main{
 
 .sum-content{
     display: flex;
-    justify-content: space-between;
 }
 .content-title{
     font-size: 30px;
@@ -187,4 +186,42 @@ main{
 }
 .btn-gap{
     margin-top: 50px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-item{
+    width: 50%;
+}
+.connect-time{
+    color: #474747;
+    font-size: 16px;
+}
+.message-me{
+    color:#757575;
+    font-size: 16px;
+}
+
+form input{
+    height: 65px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 24px;
+    padding: 18px 0px 18px 30px;
+    border: none;
+}
+form textarea{
+    height: 180px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 18px;
+    padding-left: 30px;
+    border: none;
 }
