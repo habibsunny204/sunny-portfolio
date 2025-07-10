@@ -99,6 +99,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px 230px 130px 230px;
 }
 .about{
    max-width: 1140px;
@@ -111,6 +112,7 @@ main{
 .section-title{
     font-size: 35px;
     font-weight: bold;
+    text-align: center;
 }
 .section-descrip{
     font-size: 18px;
@@ -149,4 +151,40 @@ main{
 .skill{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* education and experience section */
+
+.sum-content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.level{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content-descrip{
+    font-size: 16px;
+    color: #757575;
+}
+.content-name{
+    max-width: 511px;
+    max-height: 175px;
+}
+.content-item:first-child {
+    margin-right: 71px;
+}
+.btn-gap{
+    margin-top: 50px;
 }
